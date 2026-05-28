@@ -1,0 +1,16 @@
+.build/
+dist/
+engine-docs/
+examples/
+templates/
+urhox-libs/
+lua-tools/
+schemas/
+.claude/
+.cli/
+.emmylua/
+.agent/
+.tmp/
+logs/
+*.meta
+tile-image-assets.skill

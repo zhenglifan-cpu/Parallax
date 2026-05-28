@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/settings.schema.json",
+  "sources": {
+    "engine": {
+      "tag": "stable"
+    },
+    "engine-res": {
+      "tag": "stable"
+    },
+    "official-res": {
+      "tag": "stable"
+    }
+  },
+  "build": {
+    "generate_fs_path": true,
+    "output_dir": "../dist",
+    "asset_dirs": [
+      "../assets",
+      "../scripts"
+    ],
+    "asset_ignores": []
+  },
+  "@runtime": {
+    "multiplayer": {
+      "enabled": true,
+      "max_players": 2,
+      "persistent_world": {
+        "enabled": true
+      },
+      "match_info": {
+        "desc_name": "free_match",
+        "player_number": 2
+      }
+    }
+  }
+}

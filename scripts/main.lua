@@ -1,0 +1,5 @@
+--- main.lua
+--- 本项目使用 entry_client / entry_server 分离入口模式：
+---   客户端入口: Network/Client.lua
+---   服务端入口: Network/Server.lua
+--- 此文件仅作为备用，不会被构建系统使用。

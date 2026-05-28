@@ -1,0 +1,35 @@
+{
+  "$schema": "../schemas/project.schema.json",
+  "project_id": "p_d8ld",
+  "author": {
+    "id": "1208546298"
+  },
+  "entry": "Network/Client.lua",
+  "version": "1.0.1",
+  "taptap_publish": {
+    "title": "同途 Parallax",
+    "description": "双人合作解谜平台跳跃游戏",
+    "category": "puzzle",
+    "screen_orientation": "landscape",
+    "collection_type": "sce",
+    "trial_note": "双人合作测试版",
+    "app_platforms": "1,2",
+    "app_id": 857724,
+    "miniapp_id": "tapmct8pq3lgw5yq8o",
+    "developer_id": 395640
+  },
+  "assets": {
+    "icon": "",
+    "screenshots": [],
+    "promotional_image": ""
+  },
+  "entry@client": "Network/Client.lua",
+  "entry@server": "Network/Server.lua",
+  "test_qrcode": {
+    "url": "https://tapcode-sce.spark.xd.com/qrcode/p_d8ld_1778862240819.png",
+    "generated_at": "2026-05-15T16:24:00.949Z"
+  },
+  "metadata": {
+    "updated_at": "2026-05-15T16:24:00.949Z"
+  }
+}
